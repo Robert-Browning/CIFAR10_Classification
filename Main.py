@@ -15,7 +15,7 @@ print_time('START TIME')
 
 print('==> Initializing Parameters...\n')
 
-data_path = '/Users/robertbrowning/Desktop/UCF/CRCV/Data/CIFAR10/data_path'
+data_path = './data'
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 best_acc = 0                                                # best test accuracy
