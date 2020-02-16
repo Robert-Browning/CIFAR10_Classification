@@ -1,6 +1,7 @@
 import time
 
 import torch.optim as optim
+from torchvision import transforms
 
 from Data import *
 from Model import VGG
