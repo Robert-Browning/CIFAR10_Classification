@@ -2,6 +2,7 @@ from PIL import Image
 import os, sys
 import os.path
 import pickle
+import numpy as np
 
 import torch.utils.data as data
 from torchvision.datasets.utils import download_url, check_integrity
