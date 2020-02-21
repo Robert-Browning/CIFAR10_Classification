@@ -12,7 +12,7 @@ level of readability.
 
 At the bottom the **Data.py**, you will find code which allows you to visualize the images of CIFAR10.
 This is the only place we have used **OpenCV**, so if you do not wish to visualize any images, you do
-need to "import cv2".
+not need to "import cv2".
 
 With the parameters set as is, using a VGG16, the model acheieves **92.96%** test
 accuracy. 
